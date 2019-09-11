@@ -10,6 +10,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         var bt1 = findViewById(R.id.setbutton) as Button
-        bt1.setText("submit")
+        bt1.setText("submit report")
     }
 }
