@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".Login">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="LoginPage"
+        android:textColor="#f00"
+        android:textSize="50dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="-200dp"
+        android:text="UserName:"
+        android:textColor="#D03F51B5"
+        android:textSize="30dp"
+
+        >
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="-150dp"
+        android:text="Password:"
+
+        android:textColor="#D03F51B5"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="10dp"
+        android:background="#2C03A9F4"
+        android:inputType="text|textMultiLine"
+        android:textSize="20dp">
+
+
+    </EditText>
+    <EditText
+        android:id="@+id/pass"
+        android:inputType="textPassword"
+        android:hint="Từ 6 ký tự trở lên"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="-200dp"
+        android:background="#2C03A9F4"
+        android:textSize="20dp"
+        >
+
+    </EditText>
+
+    <Button
+        android:onClick="login"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="-200dp"
+        android:text="Login"
+        android:background="#7C2196F3"
+        android:textSize="20dp"
+
+        >
+
+    </Button>
+
+
+</LinearLayout>

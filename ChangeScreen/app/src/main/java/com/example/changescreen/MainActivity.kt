@@ -1,21 +1,21 @@
-package com.example.button2
+package com.example.changescreen
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.Button
+import androidx.appcompat.app.AppCompatViewInflater
 
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        var bt1 = findViewById(R.id.setbutton) as Button
-        bt1.setText("submit report")
     }
 
-    fun buttonclick(view: View) {
-        var bt2 = findViewById(R.id.setbutton) as Button
-        bt2.setText("Cancal")
+    fun login(view: View){
+        val changePage = Intent(this, )
+
+        startActivity(changePage)
     }
 }
