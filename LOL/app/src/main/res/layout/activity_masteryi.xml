@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".garen">
+
+    <ImageView
+        android:onClick="home"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/logo3" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="horizontal">
+        <HorizontalScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="horizontal" >
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/masteryi0"
+                    >
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/masteryi1"></ImageView>
+
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/masteryi2"
+                    >
+                </ImageView>
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/masteryi3"
+                    >
+                </ImageView>
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/masteryi4"
+                    >
+                </ImageView>
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/masteryi5"
+                    >
+                </ImageView>
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/masteryi6"
+                    >
+                </ImageView>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Master Yi đã rèn luyện cả cơ thể và tâm trí, để suy nghĩ và hành động gần như hòa làm một. Dù anh chỉ chọn giải pháp bạo lực khi không còn cách nào khác, nhưng lưỡi kiếm thanh thoát của anh đảm bảo bạo lực sẽ luôn diễn ra nhanh gọn. Là một trong những môn đồ cuối cùng của võ phái Wuju xứ Ionia, Yi dành cả đời để tiếp nối di sản ấy—tìm kiếm những môn đồ tài năng nhất bằng Thất Kính Thấu Thị."
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+</LinearLayout>

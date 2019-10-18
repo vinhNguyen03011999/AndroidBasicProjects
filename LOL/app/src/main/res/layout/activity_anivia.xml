@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".garen">
+
+    <ImageView
+        android:onClick="home"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/logo3" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="horizontal">
+        <HorizontalScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="horizontal" >
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/anivia0"
+                    >
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/anivia1">
+
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/anivia2"
+                    >
+                </ImageView>
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/anivia3"
+                    >
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/anivia4"
+                    >
+                </ImageView>
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/anivia5"
+                    >
+                </ImageView>
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/anivia6"
+                    >
+                </ImageView>
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/anivia7"
+                    >
+                </ImageView>
+
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        >
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Anivia là một vị thần nhân từ trải qua vòng luân hồi vô tận sinh, tử, tái sinh để bảo vệ Freljord. Sinh ra từ băng vĩnh cửu và gió lạnh thấu xương, cô nắm giữ quyền năng đẩy lùi bất kỳ ai dám quấy nhiễu vùng đất quê hương. Anivia dẫn dắt và bảo vệ các bộ tộc nơi phương Bắc khắc nghiệt, những người coi cô là biểu tượng của hy vọng, và là điềm báo cho một sự thay đổi lớn. Cô chiến đấu bằng tất cả sức mình, hiểu rõ ràng nhờ sự hy sinh của bản thân, ký ức về cô sẽ mãi trường tồn, và cô sẽ tái sinh trong một tương lai mới."
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

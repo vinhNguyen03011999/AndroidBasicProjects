@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".garen">
+
+    <ImageView
+        android:onClick="home"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/logo3" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="horizontal">
+        <HorizontalScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="horizontal" >
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/atrox1"
+                    >
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/atrox2"></ImageView>
+
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/atrox3"
+                    >
+                </ImageView>
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/atrox4"
+                    >
+                </ImageView>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        >
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Từng là những người bảo hộ cao quý của Shurima để chống lại Hư Không, Aatrox cùng đồng bọn cuối cùng lại trở thành một mối hiểm họa còn lớn hơn đối với cả Runeterra, và chỉ bị đánh bại bằng món phép thuật khôn ngoan của nhân loại. Nhưng sau nhiều thế kỉ bị giam cầm, Aatrox là kẻ đầu tiên một lần nữa tìm về với tự do, bằng cách vấy bẩn và biến đổi những kẻ ngu ngốc dám cầm thử thứ vũ khí ma thuật chứa đựng linh hồn hắn. Giờ đây, với da thịt chiếm đoạt được, hắn quay trở lại Runeterra trong một hình hài khủng khiếp tương tự trước đây, tìm kiếm sự tàn sát và trả món hận thù năm xưa."
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

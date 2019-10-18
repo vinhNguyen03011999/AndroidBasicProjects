@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
+import com.example.androidrecyclerview.R;
+
 public class AddTodoActivity extends AppCompatActivity {
 
     @Override

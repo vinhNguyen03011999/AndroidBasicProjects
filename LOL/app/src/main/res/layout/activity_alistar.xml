@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".garen">
+
+    <ImageView
+        android:onClick="home"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/logo3" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="horizontal">
+        <HorizontalScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="horizontal" >
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/alistar0"
+                    >
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/alistar1">
+
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/alistar2"
+                    >
+                </ImageView>
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/alistar3"
+                    >
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/alistar4"
+                    >
+                </ImageView>
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/alistar5"
+                    >
+                </ImageView>
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/alistar6"
+                    >
+                </ImageView>
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/alistar7"
+                    >
+                </ImageView>
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/alistar8"
+                    >
+                </ImageView>
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/alistar9"
+                    >
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/alistar10"
+                    >
+                </ImageView>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        >
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Rời khỏi Hội Kinkou, từ bỏ danh hiệu Nắm Đấm Bóng Đêm, Akali giờ hành động một mình, sẵn sàng trở thành thứ vũ khí giết chóc mà người dân cần. Dù vẫn khắc ghi những gì học được từ Shen, cô đã thế sẽ tiêu diệt kẻ thù của Ionia, từng mạng từng mạng một. Akali có thể ra tay trong yên lặng, nhưng thông điệp của cô thật rõ ràng: hãy khiếp sợ một sát thủ không có chủ nhân."
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

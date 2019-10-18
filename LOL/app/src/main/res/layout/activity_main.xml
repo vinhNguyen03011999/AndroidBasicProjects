@@ -1,19 +1,142 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/logo3"
+            android:onClick="home" />
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical"
+        android:layout_marginTop="150dp"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#000000"
+            android:orientation="vertical">
+
+
+
+            <Button
+                android:layout_width="308dp"
+                android:layout_height="207dp"
+                android:background="@drawable/z1"
+                android:onClick="Garen"
+                android:text="Garen"
+                android:textColor="#ffffff"
+                android:textSize="50dp" />
+
+            <Button
+                android:layout_width="308dp"
+                android:layout_height="207dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/masteryi0"
+                android:onClick="MasterYi"
+                android:text="Master Yi"
+                android:textColor="#ffffff"
+                android:textSize="50dp" />
+
+            <Button
+                android:layout_width="308dp"
+                android:layout_height="207dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/atrox1"
+                android:text="Atrox"
+                android:onClick="Aatrox"
+                android:textColor="#ffffff"
+                android:textSize="50dp" />
+
+            <Button
+                android:layout_width="308dp"
+                android:layout_height="207dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/ahri0"
+                android:text="Ahri"
+                android:onClick="Ahri"
+                android:textColor="#ffffff"
+                android:textSize="50dp" />
+
+            <Button
+                android:layout_width="308dp"
+                android:layout_height="207dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/akali0"
+                android:text="Akali"
+                android:onClick="Akali"
+                android:textColor="#ffffff"
+                android:textSize="50dp" />
+
+            <Button
+                android:layout_width="308dp"
+                android:layout_height="207dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/alistar0"
+                android:text="alistar"
+                android:onClick="Alistar"
+                android:textColor="#ffffff"
+                android:textSize="50dp" />
+
+            <Button
+                android:layout_width="308dp"
+                android:layout_height="207dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/amumu0"
+                android:text="amumu"
+                android:onClick="Amumu"
+                android:textColor="#ffffff"
+                android:textSize="50dp" />
+
+            <Button
+                android:layout_width="308dp"
+                android:layout_height="207dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/anivia0"
+                android:text="anivia"
+                android:onClick="Anivia"
+                android:textColor="#ffffff"
+                android:textSize="50dp" />
+
+            <Button
+                android:layout_width="308dp"
+                android:layout_height="207dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/annie0"
+                android:text="Annie"
+                android:onClick="Annie"
+                android:textColor="#ffffff"
+                android:textSize="50dp" />
+
+            <Button
+                android:layout_width="308dp"
+                android:layout_height="207dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/ashe0"
+                android:text="Ashe"
+                android:onClick="Ashe"
+                android:textColor="#ffffff"
+                android:textSize="50dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

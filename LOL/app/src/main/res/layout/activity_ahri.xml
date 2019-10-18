@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".garen">
+
+    <ImageView
+        android:onClick="home"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/logo3" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="horizontal">
+        <HorizontalScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="horizontal" >
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/ahri0"
+                    >
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/ahri1"></ImageView>
+
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/ahri2"
+                    >
+                </ImageView>
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/ahri3"
+                    >
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/ahri4"
+                    >
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/ahri5"
+                    >
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/ahri6"
+                    >
+                </ImageView>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        >
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sinh ra với một liên kết ma thuật tiềm tàng của Runeterra, Ahri là một Vastaya có khả năng chuyển hóa ma thuật thành những quả cầu năng lượng thuần khiết. Cô ta say mê việc chơi đùa với con mồi của mình bằng cách thao túng cảm xúc của họ, rồi sau đó nuốt chửng lấy nguồn tinh hoa sự sống từ nạn nhân. Dù mang bản năng săn mồi tự nhiên, Ahri lại cảm thấy một sự cảm thông khi cô ta nhận được những mảnh ký ức từ mỗi linh hồn mà cô hấp thụ."
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
